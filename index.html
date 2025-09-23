@@ -6,11 +6,14 @@
     <title>SunTour | Viagens e Destinos Incríveis</title>
     <meta name="description" content="Descubra pacotes turísticos, destinos incríveis e dicas de viagem na SunTour. Planeje sua próxima aventura com a gente!">
     <meta name="keywords" content="viagem, turismo, destinos, pacotes, férias, SunTour">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/components/header.css">
     <link rel="stylesheet" href="assets/css/components/navbar.css">
     <link rel="stylesheet" href="assets/css/components/footer.css">
+    <link rel="stylesheet" href="assets/css/components/cards.css">
 </head>
 <body>
 
@@ -26,16 +29,58 @@
     <main class="site-main">
 
         <!-- Destinos em destaque -->
-        <section class="destinos-nacionais-box">
-            <h1>Pacotes Nacionais</h1>
-            <p>Descubra destinos incríveis ao redor do Brasil com nossos pacotes nacionais exclusivos.</p>
-            <a href="packages.html" class="btn-primary">Ver pacotes</a>
+        <section class="destinos-nacionais-container">
+                <div class="container-text-center">
+                    <div class="text-center-container">
+                        <p class="subtitle1">Perfeito Para Você</p>
+                        <h1>Principais Pacotes</h1>
+                        <p class="description1">Descubra destinos incríveis ao redor do Brasil com nossos pacotes nacionais exclusivos.</p>
+                    </div>
+                    <div class="button-container">
+                        <button>Ver todos os pacotes</button>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div id="package-cancun-playa"></div>
+                    <div id="beto-carrero"></div>
+                    <div id="joao-pessoa"></div>
+                </div>
+            
         </section>
 
-        <section class="destinations">
-            <h2>Destinos em destaque</h2>
-            <div class="cards">
-                <!-- Cards de destinos, podem ser incluídos via JS ou HTML estático -->
+        <section class="destinations-container">
+            <div class="container-text-center2">
+                <p class="subtitle">Prepare-se para</p>
+                <h1>Explorar os principais destinos</h1>
+                <p class="description2">Descubra os melhores lugares para visitar na América do Latina e com nossas ofertas exclusivas.</p>
+           </div>
+            <div class="image-list"> <!-- lista de img 1 -->
+                <div class="active-container">
+                    <div class="active-img">
+                        <img src="/assets/img/ui/argentina.png" alt="Destino 1">
+                        <div class="texto-overlay"><p>Argentina</p></div>
+                    </div>
+                </div>
+
+                <div class="active-container">
+                    <div class="active-img">
+                        <img src="/assets/img/ui/bolivia.png" alt="Destino 2">
+                        <div class="texto-overlay"><p>Bolívia</p></div>
+                    </div>
+                </div>
+                <div class="active-container">
+                    <div class="active-img">
+                        <img src="/assets/img/ui/colombia.png" alt="Destino 3">
+                        <div class="texto-overlay"><p>Colômbia</p></div>
+                    </div>
+                </div>
+                <div class="active-container">
+                    <div class="active-img">
+                        <img src="/assets/img/ui/chile.png" alt="Destino 4">
+                        <div class="texto-overlay"><p>Chile</p></div>
+                    </div>
+                </div>
             </div>
         </section>
 
